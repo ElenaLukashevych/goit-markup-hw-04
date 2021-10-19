@@ -140,6 +140,7 @@ header {
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
+   fill: var(--accent-color);
 }
 
 .contacts {
@@ -156,12 +157,24 @@ header {
 }
 
 .contacts-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: var(--primary-text-color);
+    fill: var(--primary-text-color);
+}
+
+.contacts-svg {
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .current {
   color: var(--accent-color);
 }
+
+
 
 /* Герой */
 
@@ -254,11 +267,6 @@ header {
   margin-bottom: var(--item-gap);
 
   border-radius: 4px;
-}
-
-.features-svg {
-  width: 70px;
-  height: 70px;
 }
 
 .features-title {
@@ -377,10 +385,7 @@ header {
   fill: var(--primary-white-color);
 }
 
-.social-logo {
-  width: 20px;
-  height: 20px;
-}
+
 
 /* Клиенты */
 
@@ -417,10 +422,7 @@ header {
   fill: var(--accent-color);
 }
 
-.clients-logo {
-  width: 106px;
-  height: 60px;
-}
+
 
 /* Футер */
 
