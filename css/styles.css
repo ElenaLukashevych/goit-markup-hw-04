@@ -140,7 +140,7 @@ header {
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
-   fill: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .contacts {
@@ -161,7 +161,7 @@ header {
   justify-content: center;
   align-items: center;
   color: var(--primary-text-color);
-    fill: var(--primary-text-color);
+  fill: var(--primary-text-color);
 }
 
 .contacts-svg {
@@ -173,8 +173,6 @@ header {
 .current {
   color: var(--accent-color);
 }
-
-
 
 /* Герой */
 
@@ -385,8 +383,6 @@ header {
   fill: var(--primary-white-color);
 }
 
-
-
 /* Клиенты */
 
 .clients {
@@ -421,8 +417,6 @@ header {
   border: 1px solid var(--accent-color);
   fill: var(--accent-color);
 }
-
-
 
 /* Футер */
 
@@ -466,7 +460,6 @@ header {
 
 .footer-box {
   display: inline-block;
-  
 }
 
 .social-text {
@@ -507,28 +500,21 @@ header {
   fill: var(--primary-white-color);
 }
 
-
-
 .footer {
   background-color: var(--footer-color);
 }
 
 .flex {
   display: flex;
-  flex-direction: row;
   align-items: baseline;
-  /* justify-content: space-between; */
-} 
+}
 
 .footer-box {
- 
 }
 
 .footer-logo {
   mask-repeat: 156px;
-} 
-  
-
+}
 
 /* Портфолио */
 
